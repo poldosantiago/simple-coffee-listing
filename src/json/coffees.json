@@ -1,0 +1,58 @@
+{
+    "coffees": [
+        {
+            "name":"Cappuccino",
+            "popular": true,
+            "price": 5.20,
+            "rating": 4.7,
+            "votes": 65,
+            "sold_out": false,
+            "path": "/images/capuccino.jpg"
+        },
+        {
+            "name":"House Coffee",
+            "popular": true,
+            "price": 3.50,
+            "rating": 4.85,
+            "votes": 14,
+            "sold_out": false,
+            "path": "/images/house_coffee.jpg"
+        },
+        {
+            "name":"Espresso",
+            "popular": false,
+            "price": 2.50,
+            "rating": 4.9,
+            "votes": 55,
+            "sold_out": false,
+            "path": "/images/espresso.jpg"
+        },
+        {
+            "name":"Coffe Latte",
+            "popular": false,
+            "price": 4.50,
+            "rating": 5.0,
+            "votes": 23,
+            "sold_out": true,
+            "path": "/images/coffee_latte.jpg"
+        },
+        {
+            "name":"Chocolate Coffee",
+            "popular": false,
+            "price": 4.00,
+            "rating": 4.65,
+            "votes": 122,
+            "sold_out": false,
+            "path": "/images/chocolate_coffee.jpg"
+        },
+        {
+            "name":"Valentine Special",
+            "popular": false,
+            "price": 5.20,
+            "rating": 0,
+            "votes": 11,
+            "sold_out": false,
+            "path": "/images/valentine_special.jpg"
+        }
+    ]
+}

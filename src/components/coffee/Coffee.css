@@ -1,0 +1,55 @@
+li{
+    width: 320px;
+    margin: 0rem 2rem;
+}
+
+.coffee_image{
+    width: 100%;
+    height: 235px; 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+div.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+div.rating_content{
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+}
+
+div.rating_content span{
+    color: var(--color5);
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+h1{
+    color: var(--color5);
+    font-weight: bold;
+}
+
+span.price{
+    background-color: var(--color4);
+    color: var(--color2);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+span.sold_out{
+    color: var(--color7);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+    li{
+        width: 300px;
+        margin: 0rem 1rem;
+    }    
+}

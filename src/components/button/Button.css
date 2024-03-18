@@ -1,0 +1,18 @@
+.button{
+    border: none;
+    background: none;
+    color: var(--color5);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button.active{
+    border-radius:10px;
+    background: var(--color3);
+    color: var(--color5);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
