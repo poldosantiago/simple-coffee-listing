@@ -11,9 +11,9 @@ A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge
 
 O project foi feito com React. Para iniciá-lo, acessa a pasta do projeto e digite o comando abaixo:
 
-ˋˋˋ
+```
 npm start
-ˋˋˋ
+```
 
 Executa o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
