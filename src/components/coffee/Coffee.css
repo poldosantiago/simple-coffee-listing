@@ -1,6 +1,7 @@
 li{
     width: 320px;
     margin: 0rem 2rem;
+    position: relative;
 }
 
 .coffee_image{
@@ -36,14 +37,28 @@ h1{
 span.price{
     background-color: var(--color4);
     color: var(--color2);
-    padding: 5px;
+    padding: 0.5rem;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 span.sold_out{
     color: var(--color7);
+    font-weight: bold;
+}
+
+div.popular{
+    background-color: var(--color6);
+    color: var(--color2);
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    display:inline-block;
+
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 12px;
     font-weight: bold;
 }
 

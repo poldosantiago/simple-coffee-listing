@@ -6,6 +6,10 @@ Para conferir o resultado, clique [aqui](https://simple-coffee-listing-brown.ver
 
 A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/simple-coffee-listing).
 
+# Apredizado
+
+Esta foi minha primeira experiência completa com React. Já trabalho com o framework faz um tempo, mas nunca fiz deploy nele. Sempre o utilizei localmente no meu PC.
+
 
 # Iniciando
 

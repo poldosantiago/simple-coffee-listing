@@ -1,3 +1,4 @@
+import { formatCurrency } from 'formatter/currency';
 import './Coffee.css';
 import star from './Star.svg';
 import starFill from './Star_fill.svg';
@@ -11,7 +12,7 @@ function Coffee({ coffeeData }) {
             <img className={'coffee_image'} src={`${process.env.PUBLIC_URL}${path}`} alt="imagem" />
             <div className='content'>
                 <h1>{name}</h1>
-                <span className="price">$ {price}</span>
+                <span className="price">{formatCurrency(price, 'en-US')}</span>
             </div>
 
             <div className='content'>
@@ -30,6 +31,11 @@ function Coffee({ coffeeData }) {
                 </div>
                 <span className='sold_out'>{ soldOut ? 'SOLD OUT': '' }</span>
             </div>
+            
+            {popular &&
+                <div className='popular'>Popular</div> //position absolute
+            }
+
         </li>
      );
 }
