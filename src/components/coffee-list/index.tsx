@@ -1,8 +1,11 @@
 import Coffee from "components/coffee";
 import './CoffeeList.css';
 
-function CoffeList({coffeeList}) {
-    console.log('aki:', coffeeList );
+interface CoffeListProps{
+    coffeeList: ICoffeData[]
+}
+
+function CoffeList({ coffeeList }:CoffeListProps) {
     return ( 
         <ul>
             {

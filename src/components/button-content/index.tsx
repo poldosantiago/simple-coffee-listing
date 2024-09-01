@@ -2,7 +2,12 @@ import { useState } from 'react';
 import './ButtonContent.css';
 import Button from 'components/button';
 
-function ButtonContent({ buttonNames, setAvailableNow }) {
+interface ButtonContentProps{
+    buttonNames: string[], 
+    setAvailableNow: (value:boolean)=> void
+}
+
+function ButtonContent({ buttonNames, setAvailableNow }:ButtonContentProps) {
     
     const [active, setActive] = useState(0);
 

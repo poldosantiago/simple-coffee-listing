@@ -3,10 +3,10 @@ import ButtonContent from 'components/button-content/index';
 import './main.css';
 import 'components/button-content/index';
 import CoffeList from 'components/coffee-list';
-import coffesList from '../../json/coffees.json'; //JSON
+import coffesListFiles from 'json/coffees.json'; //JSON
 
 function Main() {
-    const { coffees } = coffesList;
+    const { coffees } = coffesListFiles;
 
     const [availableNow, setAvailableNow] = useState(false);
 

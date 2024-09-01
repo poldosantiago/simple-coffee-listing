@@ -1,9 +1,14 @@
-import { formatCurrency } from 'formatter/currency';
+import { formatCurrency } from "formatter/currency";
+
 import './Coffee.css';
 import star from './Star.svg';
 import starFill from './Star_fill.svg';
 
-function Coffee({ coffeeData }) {
+interface CoffeeProps{
+    coffeeData: ICoffeData
+}
+
+function Coffee({ coffeeData }:CoffeeProps) {
 
     const { name, popular, price, rating, votes, sold_out:soldOut, path } = coffeeData;
 
@@ -12,18 +17,18 @@ function Coffee({ coffeeData }) {
             <img className={'coffee_image'} src={`${process.env.PUBLIC_URL}${path}`} alt="imagem" />
             <div className='content'>
                 <h1>{name}</h1>
-                <span className="price">{formatCurrency(price, 'en-US')}</span>
+                <span className="price">{formatCurrency(Number(price), 'en-US')}</span>
             </div>
 
             <div className='content'>
                 <div className='rating_content'>
                     <img src={starFill} alt="star"/>
-                    {rating > 0 &&
+                    {Number(rating) > 0 &&
                         <div>
                             <span>{rating}</span> ({votes} votes)
                         </div>
                     }
-                    {rating <= 0 &&
+                    {Number(rating) <= 0 &&
                         <div>
                             No ratings
                         </div>
