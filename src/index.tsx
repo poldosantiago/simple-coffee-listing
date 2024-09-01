@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './base/base.css';
 import AppRoutes from './routes';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 const rootElement = document.getElementById('root');
@@ -11,5 +12,6 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <AppRoutes />
+    <SpeedInsights />
   </React.StrictMode>
 );
