@@ -2,8 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-<img loading="lazy" src="http://img.shields.io/static/v1?label=Release Date&message=September&color=BLUE&style=for-the-badge"/>
-
+![Static Badge](https://img.shields.io/badge/Release%20Date-september-blue)
 
 Lista simples de cafés à venda. O projeto faz parte do desafio proposto pelo site [devchallenges.io](https://devchallenges.io).
 
