@@ -1,12 +1,21 @@
 # Simple Coffee Listing 📋
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+<img loading="lazy" src="http://img.shields.io/static/v1?label=Release Date&message=September&color=BLUE&style=for-the-badge"/>
+
+
 Lista simples de cafés à venda. O projeto faz parte do desafio proposto pelo site [devchallenges.io](https://devchallenges.io).
 
 Para conferir o resultado, clique [aqui](https://simple-coffee-listing-brown.vercel.app/).
 
 A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/simple-coffee-listing).
 
-# Apredizado
+# Atualização 
+
+Migrei o projeto para a linguagem typescript com o intuito de praticar o processo. 
+
+# Aprendizado
 
 Esta foi minha primeira experiência completa com React. Já trabalho com o framework faz um tempo, mas nunca fiz deploy nele. Sempre o utilizei localmente no meu PC.
 
